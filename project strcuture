@@ -1,0 +1,23 @@
+devops-infrastructure-challenge/
+│
+├── app/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── k8s/
+│   ├── namespace.yaml
+│   ├── secret.yaml
+│   ├── postgres.yaml
+│   ├── backend.yaml
+│   └── service.yaml
+│
+├── tests/
+│   └── test_app.py
+│
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yaml
+│
+├── .dockerignore
+└── README.md
