@@ -1,0 +1,21 @@
+Wrong database configuration - senorior
+
+Application failing
+       ↓
+Check pod
+       ↓
+kubectl get pods
+       ↓
+Check logs
+       ↓
+kubectl logs
+       ↓
+Check environment variables
+       ↓
+Check Service
+       ↓
+kubectl get svc
+       ↓
+Check DNS/service name
+       ↓
+Fix DB_HOST
